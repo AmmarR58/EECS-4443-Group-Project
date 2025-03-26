@@ -20,10 +20,13 @@
         android:textColor="@android:color/white"
         android:textSize="12sp" />
 
+    <!-- Stops the widget from being clickable -->
     <FrameLayout
         android:id="@+id/widget_drawing_area"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/widget_label" />
+        android:layout_below="@id/widget_label"
+        android:clickable="true"
+        android:focusable="true" />
 
 </RelativeLayout>

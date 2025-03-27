@@ -45,6 +45,7 @@ public class WidgetDrawingActivity extends Activity implements OnGesturePerforme
     public void onGesturePerformed(GestureOverlayView overlay, Gesture gesture) {
         ArrayList<Prediction> predictions = gestureLibrary.recognize(gesture);
 
+        // Check if gesture is recognized
         if (predictions.size() > 0 && predictions.get(0).score > 1.0) {
             String gestureName = predictions.get(0).name;
 

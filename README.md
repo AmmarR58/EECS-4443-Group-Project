@@ -33,3 +33,8 @@ A **2x3 within-subjects user study** was conducted with 12 participants (age 18â
 3. Connect a compatible Android device or use an emulator.
 4. Build and run the app.
 
+## Contributors
+- Faraz Akbarzadeh
+- Ammar Rafiqui 
+- Melika Sherafatt 
+- Omer Faruk Celik 
